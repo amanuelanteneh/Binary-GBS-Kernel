@@ -1,0 +1,46 @@
+To execute the default application inside the container, run:
+singularity run --nv $CONTAINERDIR/pytorch-1.10.0.sif
+
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: scikit-learn in /usr/local/lib/python3.8/site-packages (1.0.1)
+Requirement already satisfied: networkx in /usr/local/lib/python3.8/site-packages (2.6.3)
+Requirement already satisfied: numpy in /usr/local/lib/python3.8/site-packages (1.20.1)
+Requirement already satisfied: scipy in /usr/local/lib/python3.8/site-packages (1.6.1)
+Requirement already satisfied: pandas in /usr/local/lib/python3.8/site-packages (1.3.4)
+Requirement already satisfied: tabulate in /home/asa2rc/.local/lib/python3.8/site-packages (0.8.9)
+Requirement already satisfied: strawberryfields in /home/asa2rc/.local/lib/python3.8/site-packages (0.22.0)
+Requirement already satisfied: thewalrus in /home/asa2rc/.local/lib/python3.8/site-packages (0.19.0)
+Requirement already satisfied: dask in /home/asa2rc/.local/lib/python3.8/site-packages (1.2.2)
+Requirement already satisfied: joblib>=0.11 in /usr/local/lib/python3.8/site-packages (from scikit-learn) (1.1.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/lib/python3.8/site-packages (from scikit-learn) (3.0.0)
+Requirement already satisfied: pytz>=2017.3 in /usr/local/lib/python3.8/site-packages (from pandas) (2021.3)
+Requirement already satisfied: python-dateutil>=2.7.3 in /usr/local/lib/python3.8/site-packages (from pandas) (2.8.2)
+Requirement already satisfied: requests>=2.22.0 in /usr/local/lib/python3.8/site-packages (from strawberryfields) (2.26.0)
+Requirement already satisfied: quantum-blackbird>=0.3.0 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.4.0)
+Requirement already satisfied: numba in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.55.2)
+Requirement already satisfied: toml in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.10.2)
+Requirement already satisfied: urllib3>=1.25.3 in /usr/local/lib/python3.8/site-packages (from strawberryfields) (1.26.7)
+Requirement already satisfied: xanadu-cloud-client>=0.1.1 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.1.2)
+Requirement already satisfied: sympy>=1.5 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (1.10.1)
+Requirement already satisfied: quantum-xir>=0.1.1 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.2.1)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.8/site-packages (from numba->strawberryfields) (57.5.0)
+Requirement already satisfied: llvmlite<0.39,>=0.38.0rc1 in /home/asa2rc/.local/lib/python3.8/site-packages (from numba->strawberryfields) (0.38.1)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.8/site-packages (from python-dateutil>=2.7.3->pandas) (1.16.0)
+Requirement already satisfied: antlr4-python3-runtime==4.8 in /home/asa2rc/.local/lib/python3.8/site-packages (from quantum-blackbird>=0.3.0->strawberryfields) (4.8)
+Requirement already satisfied: lark-parser>=0.11.0 in /home/asa2rc/.local/lib/python3.8/site-packages (from quantum-xir>=0.1.1->strawberryfields) (0.12.0)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.8/site-packages (from requests>=2.22.0->strawberryfields) (2.0.8)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.8/site-packages (from requests>=2.22.0->strawberryfields) (2021.10.8)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.8/site-packages (from requests>=2.22.0->strawberryfields) (3.3)
+Requirement already satisfied: mpmath>=0.19 in /home/asa2rc/.local/lib/python3.8/site-packages (from sympy>=1.5->strawberryfields) (1.2.1)
+Requirement already satisfied: pydantic[dotenv] in /home/asa2rc/.local/lib/python3.8/site-packages (from xanadu-cloud-client>=0.1.1->strawberryfields) (1.9.0)
+Requirement already satisfied: fire in /home/asa2rc/.local/lib/python3.8/site-packages (from xanadu-cloud-client>=0.1.1->strawberryfields) (0.4.0)
+Requirement already satisfied: appdirs in /home/asa2rc/.local/lib/python3.8/site-packages (from xanadu-cloud-client>=0.1.1->strawberryfields) (1.4.4)
+Requirement already satisfied: toolz>=0.7.3 in /home/asa2rc/.local/lib/python3.8/site-packages (from dask) (0.11.2)
+Requirement already satisfied: termcolor in /home/asa2rc/.local/lib/python3.8/site-packages (from fire->xanadu-cloud-client>=0.1.1->strawberryfields) (1.1.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.8/site-packages (from pydantic[dotenv]->xanadu-cloud-client>=0.1.1->strawberryfields) (4.0.0)
+Requirement already satisfied: python-dotenv>=0.10.4 in /home/asa2rc/.local/lib/python3.8/site-packages (from pydantic[dotenv]->xanadu-cloud-client>=0.1.1->strawberryfields) (0.20.0)
+python: can't open file 'GBS-Kernel.py': [Errno 2] No such file or directory
+
+real	0m3.284s
+user	0m2.018s
+sys	0m0.620s

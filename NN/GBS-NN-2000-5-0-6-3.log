@@ -1,0 +1,139 @@
+To execute the default application inside the container, run:
+singularity run --nv $CONTAINERDIR/pytorch-1.10.0.sif
+
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: scikit-learn in /usr/local/lib/python3.8/site-packages (1.0.1)
+Requirement already satisfied: networkx in /usr/local/lib/python3.8/site-packages (2.6.3)
+Requirement already satisfied: numpy in /usr/local/lib/python3.8/site-packages (1.20.1)
+Requirement already satisfied: scipy in /usr/local/lib/python3.8/site-packages (1.6.1)
+Requirement already satisfied: pandas in /usr/local/lib/python3.8/site-packages (1.3.4)
+Requirement already satisfied: tabulate in /home/asa2rc/.local/lib/python3.8/site-packages (0.8.9)
+Requirement already satisfied: strawberryfields in /home/asa2rc/.local/lib/python3.8/site-packages (0.22.0)
+Requirement already satisfied: thewalrus in /home/asa2rc/.local/lib/python3.8/site-packages (0.19.0)
+Requirement already satisfied: dask in /home/asa2rc/.local/lib/python3.8/site-packages (1.2.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/lib/python3.8/site-packages (from scikit-learn) (3.0.0)
+Requirement already satisfied: joblib>=0.11 in /usr/local/lib/python3.8/site-packages (from scikit-learn) (1.1.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /usr/local/lib/python3.8/site-packages (from pandas) (2.8.2)
+Requirement already satisfied: pytz>=2017.3 in /usr/local/lib/python3.8/site-packages (from pandas) (2021.3)
+Requirement already satisfied: quantum-blackbird>=0.3.0 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.4.0)
+Requirement already satisfied: sympy>=1.5 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (1.10.1)
+Requirement already satisfied: toml in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.10.2)
+Requirement already satisfied: urllib3>=1.25.3 in /usr/local/lib/python3.8/site-packages (from strawberryfields) (1.26.7)
+Requirement already satisfied: quantum-xir>=0.1.1 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.2.1)
+Requirement already satisfied: xanadu-cloud-client>=0.1.1 in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.1.2)
+Requirement already satisfied: numba in /home/asa2rc/.local/lib/python3.8/site-packages (from strawberryfields) (0.55.2)
+Requirement already satisfied: requests>=2.22.0 in /usr/local/lib/python3.8/site-packages (from strawberryfields) (2.26.0)
+Requirement already satisfied: llvmlite<0.39,>=0.38.0rc1 in /home/asa2rc/.local/lib/python3.8/site-packages (from numba->strawberryfields) (0.38.1)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.8/site-packages (from numba->strawberryfields) (57.5.0)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.8/site-packages (from python-dateutil>=2.7.3->pandas) (1.16.0)
+Requirement already satisfied: antlr4-python3-runtime==4.8 in /home/asa2rc/.local/lib/python3.8/site-packages (from quantum-blackbird>=0.3.0->strawberryfields) (4.8)
+Requirement already satisfied: lark-parser>=0.11.0 in /home/asa2rc/.local/lib/python3.8/site-packages (from quantum-xir>=0.1.1->strawberryfields) (0.12.0)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.8/site-packages (from requests>=2.22.0->strawberryfields) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.8/site-packages (from requests>=2.22.0->strawberryfields) (2.0.8)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.8/site-packages (from requests>=2.22.0->strawberryfields) (3.3)
+Requirement already satisfied: mpmath>=0.19 in /home/asa2rc/.local/lib/python3.8/site-packages (from sympy>=1.5->strawberryfields) (1.2.1)
+Requirement already satisfied: fire in /home/asa2rc/.local/lib/python3.8/site-packages (from xanadu-cloud-client>=0.1.1->strawberryfields) (0.4.0)
+Requirement already satisfied: appdirs in /home/asa2rc/.local/lib/python3.8/site-packages (from xanadu-cloud-client>=0.1.1->strawberryfields) (1.4.4)
+Requirement already satisfied: pydantic[dotenv] in /home/asa2rc/.local/lib/python3.8/site-packages (from xanadu-cloud-client>=0.1.1->strawberryfields) (1.9.0)
+Requirement already satisfied: toolz>=0.7.3 in /home/asa2rc/.local/lib/python3.8/site-packages (from dask) (0.11.2)
+Requirement already satisfied: termcolor in /home/asa2rc/.local/lib/python3.8/site-packages (from fire->xanadu-cloud-client>=0.1.1->strawberryfields) (1.1.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.8/site-packages (from pydantic[dotenv]->xanadu-cloud-client>=0.1.1->strawberryfields) (4.0.0)
+Requirement already satisfied: python-dotenv>=0.10.4 in /home/asa2rc/.local/lib/python3.8/site-packages (from pydantic[dotenv]->xanadu-cloud-client>=0.1.1->strawberryfields) (0.20.0)
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+ENZYMES             204        36.3039         18.5637            6
+
+Number of samples per graph: 2000 
+Mean number of photons: 5 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+
+Max nodes: 125
+GraphNNClassifier(
+  (linear): Linear(in_features=126, out_features=6, bias=True)
+)
+
+train loss: 1.7935, train acc: 12.5874
+validation loss: 1.7729, validation acc: 19.6721
+
+
+train loss: 1.7852, train acc: 20.9790
+validation loss: 1.7624, validation acc: 18.0328
+
+
+train loss: 1.7806, train acc: 20.2797
+validation loss: 1.7680, validation acc: 18.0328
+
+
+train loss: 1.7777, train acc: 20.9790
+validation loss: 1.7843, validation acc: 18.0328
+
+
+train loss: 1.7754, train acc: 21.6783
+validation loss: 1.7870, validation acc: 18.0328
+
+
+train loss: 1.7739, train acc: 21.6783
+validation loss: 1.7684, validation acc: 18.0328
+
+
+train loss: 1.7726, train acc: 20.2797
+validation loss: 1.7837, validation acc: 18.0328
+
+
+train loss: 1.7716, train acc: 21.6783
+validation loss: 1.7704, validation acc: 18.0328
+
+
+train loss: 1.7709, train acc: 21.6783
+validation loss: 1.7580, validation acc: 18.0328
+
+
+train loss: 1.7703, train acc: 21.6783
+validation loss: 1.7796, validation acc: 18.0328
+
+
+train loss: 1.7700, train acc: 21.6783
+validation loss: 1.7598, validation acc: 18.0328
+
+
+train loss: 1.7696, train acc: 20.9790
+validation loss: 1.7728, validation acc: 18.0328
+
+
+train loss: 1.7693, train acc: 21.6783
+validation loss: 1.7582, validation acc: 18.0328
+
+
+train loss: 1.7690, train acc: 20.9790
+validation loss: 1.7624, validation acc: 18.0328
+
+
+train loss: 1.7688, train acc: 21.6783
+validation loss: 1.7560, validation acc: 18.0328
+
+
+train loss: 1.7688, train acc: 18.8811
+validation loss: 1.7571, validation acc: 18.0328
+
+
+train loss: 1.7687, train acc: 20.2797
+validation loss: 1.7649, validation acc: 18.0328
+
+
+train loss: 1.7686, train acc: 21.6783
+validation loss: 1.8093, validation acc: 18.0328
+
+
+train loss: 1.7685, train acc: 21.6783
+validation loss: 1.7570, validation acc: 18.0328
+
+
+train loss: 1.7683, train acc: 18.8811
+validation loss: 1.7675, validation acc: 18.0328
+
+
+real	128m26.133s
+user	128m1.094s
+sys	0m5.317s
