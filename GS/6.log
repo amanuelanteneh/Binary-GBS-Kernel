@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+MUTAG               179          17.486        19.2346            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    MUTAG
+----------  ------------
+SVM         80.80 ± 0.91
+
+real	179m52.314s
+user	179m23.664s
+sys	0m2.288s

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "../Bin-GBS-Kernel-b-15k.py", line 158, in <module>
+    X, y = preprocessDataset(dataset)
+  File "../Bin-GBS-Kernel-b-15k.py", line 62, in preprocessDataset
+    graphsNX, y = load_fingerprint('../graphs/Fingerprint')
+  File "../Bin-GBS-Kernel-b-15k.py", line 30, in load_fingerprint
+    with open(path_to_folder+"/Fingerprint_graph_indicator.txt", "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../graphs/Fingerprint/Fingerprint_graph_indicator.txt'
+
+real	0m3.635s
+user	0m1.328s
+sys	0m0.445s

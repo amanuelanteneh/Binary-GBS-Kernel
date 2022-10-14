@@ -1,0 +1,11 @@
+Number of graphs: 1728
+
+Kernel: Subgraph Matching 
+
+Data set    AIDS
+----------  ------------
+SVM         77.85 ± 2.44
+
+real	6295m51.028s
+user	6280m26.269s
+sys	0m16.330s

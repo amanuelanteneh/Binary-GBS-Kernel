@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+COX2_MD             118         23.9068        274.407            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    COX2_MD
+----------  ------------
+SVM         49.01 ± 3.18
+
+real	167m7.120s
+user	166m40.420s
+sys	0m1.645s

@@ -1,0 +1,18 @@
+Data set       Number of    Mean Number     Mean Number    Number of
+                  Graphs       of Edges     of Vertices      Classes
+-----------  -----------  -------------  --------------  -----------
+FINGERPRINT         1080        9.10556         10.5898            3
+
+Number of samples per graph: 15000 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+Data set    FINGERPRINT
+----------  -------------
+SVM         65.75 ± 0.91
+
+real	2001m39.248s
+user	1984m49.690s
+sys	12m2.633s

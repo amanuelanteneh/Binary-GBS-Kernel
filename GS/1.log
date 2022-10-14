@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+BZR_MD              257         20.1012        197.696            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    BZR_MD
+----------  ------------
+SVM         51.42 ± 3.51
+
+real	354m23.407s
+user	353m27.320s
+sys	0m4.577s

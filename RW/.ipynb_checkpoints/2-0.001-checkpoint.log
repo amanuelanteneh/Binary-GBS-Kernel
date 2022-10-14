@@ -1,0 +1,10 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+COX2_MD             118         23.9068        274.407            2
+
+Kernel: Random Walk 
+Lambda: 0.001 
+Method Type: Fast 
+Kernel Type: Geometric 
+

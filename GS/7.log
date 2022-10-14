@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+NCI1               1853          19.776        21.2774            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    NCI1
+----------  ------------
+SVM         50.34 ± 3.22
+
+real	1802m12.872s
+user	1796m47.953s
+sys	0m54.654s

@@ -1,0 +1,15 @@
+Data set       Number of     Mean Number    Mean Number    Number of
+                  Graphs     of Vertices       of Edges      Classes
+-----------  -----------  --------------  -------------  -----------
+FINGERPRINT         1080         10.5898        9.10556            3
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    FINGERPRINT
+----------  -------------
+SVM         46.22 ± 1.02
+
+real	2m3.000s
+user	2m1.367s
+sys	0m0.621s

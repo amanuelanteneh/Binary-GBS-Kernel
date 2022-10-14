@@ -1,0 +1,17 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+MUTAG               179          17.486        19.2346            2
+
+Kernel: Random Walk 
+Lambda: 0.001 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+Data set    MUTAG
+----------  ------------
+SVM         83.22 ± 0.04
+
+real	10m18.313s
+user	10m15.707s
+sys	0m0.364s

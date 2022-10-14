@@ -1,0 +1,18 @@
+Data set       Number of    Mean Number     Mean Number    Number of
+                  Graphs       of Edges     of Vertices      Classes
+-----------  -----------  -------------  --------------  -----------
+IMDB-BINARY          806        63.3226         15.9814            2
+
+Number of samples per graph: 15000 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+Data set    IMDB-BINARY
+----------  -------------
+SVM         59.85 ± 0.99
+
+real	2383m24.031s
+user	2367m46.420s
+sys	9m53.117s

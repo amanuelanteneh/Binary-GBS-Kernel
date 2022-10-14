@@ -1,0 +1,11 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+AIDS               1723         11.1184        11.2925            2
+
+Kernel: Random Walk 
+Lambda: 0.001 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+slurmstepd: error: *** JOB 42441825 ON udc-aw34-24c0 CANCELLED AT 2022-09-23T19:49:41 ***

@@ -1,0 +1,22 @@
+Data set      Number of    Mean Number     Mean Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+NCI1               1853        21.2774          19.776            2
+
+Number of samples per graph: 15000 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+Data set    NCI1
+----------  ------------
+SVM         63.68 ± 0.71
+
+real	9416m58.796s
+user	9320m30.595s
+sys	73m42.480s
+slurmstepd: error: error from open of cgroup '/sys/fs/cgroup/memory/slurm/uid_944600/job_42371911/step_batch' : No such file or directory
+slurmstepd: error: xcgroup_lock error: No such file or directory
+slurmstepd: error: problem with oom_pipe[0]
+slurmstepd: fatal: cgroup_v1.c:1352 _oom_event_monitor: pthread_mutex_lock(): Invalid argument

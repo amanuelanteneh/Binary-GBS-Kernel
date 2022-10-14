@@ -1,0 +1,5 @@
+Number of graphs: 1836
+
+Kernel: Subgraph Matching 
+
+slurmstepd: error: *** JOB 42466996 ON udc-ba25-32c1 CANCELLED AT 2022-10-02T18:36:00 DUE TO TIME LIMIT ***

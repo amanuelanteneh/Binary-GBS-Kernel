@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "Bin-GBS-Kernel-b-15k.py", line 158, in <module>
+    X, y = preprocessDataset(dataset)
+  File "Bin-GBS-Kernel-b-15k.py", line 65, in preprocessDataset
+    graphData = fetch_dataset(dataset, verbose=False, as_graphs=True) # get dataset 
+  File "/home/asa2rc/.local/lib/python3.8/site-packages/grakel/datasets/base.py", line 477, in fetch_dataset
+    zip_ref.extractall()
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/zipfile.py", line 1647, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/zipfile.py", line 1697, in _extract_member
+    os.mkdir(targetpath)
+FileExistsError: [Errno 17] File exists: '/sfs/qumulo/qhome/asa2rc/grakel_data/ENZYMES'
+
+real	0m3.851s
+user	0m1.291s
+sys	0m0.297s

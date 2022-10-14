@@ -1,0 +1,10 @@
+
+Kernel: Subgraph Matching 
+
+Data set    ENZYMES
+----------  ------------
+SVM         37.38 ± 1.60
+
+real	1200m40.440s
+user	1197m44.997s
+sys	0m2.019s

@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+AIDS               1723         11.1184        11.2925            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    AIDS
+----------  ------------
+SVM         99.34 ± 0.09
+
+real	3m1.306s
+user	2m59.332s
+sys	0m1.197s

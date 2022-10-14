@@ -1,0 +1,11 @@
+Number of graphs: 515
+
+Kernel: Subgraph Matching 
+
+Data set    PROTEINS
+----------  ------------
+SVM         62.93 ± 0.83
+
+real	3472m43.330s
+user	3463m21.277s
+sys	0m15.927s

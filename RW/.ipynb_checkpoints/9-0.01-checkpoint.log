@@ -1,0 +1,10 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PTC_FM              284         13.6408         13.993            2
+
+Kernel: Random Walk 
+Lambda: 0.01 
+Method Type: Fast 
+Kernel Type: Geometric 
+

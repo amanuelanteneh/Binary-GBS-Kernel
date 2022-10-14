@@ -1,0 +1,18 @@
+Data set      Number of    Mean Number     Mean Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+ENZYMES             204        36.3039         18.5637            6
+
+Number of samples per graph: 15000 
+Mean number of photons: 3.0 
+Displacement on each mode: 0.0 
+Max photon number: 5 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+Data set    ENZYMES
+----------  ------------
+SVM         42.65 ± 1.96
+
+real	700m1.721s
+user	694m31.237s
+sys	3m37.793s

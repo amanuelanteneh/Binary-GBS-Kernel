@@ -1,0 +1,18 @@
+Data set      Number of    Mean Number     Mean Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+NCI1               1853        21.2774          19.776            2
+
+Number of samples per graph: 15000 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 5 
+Number of outcomes |Ω|: 31
+Data set    NCI1
+----------  ------------
+SVM         63.45 ± 0.57
+
+real	6672m29.465s
+user	6635m8.882s
+sys	21m23.372s

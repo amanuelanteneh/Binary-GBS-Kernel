@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ENZYMES             204         18.5637        36.3039            6
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    ENZYMES
+----------  ------------
+SVM         22.15 ± 1.88
+
+real	0m34.640s
+user	0m33.922s
+sys	0m0.293s

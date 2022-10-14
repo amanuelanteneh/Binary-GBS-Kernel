@@ -1,0 +1,10 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+BZR_MD              257         20.1012        197.696            2
+
+Kernel: Random Walk 
+Lambda: 0.0001 
+Method Type: Fast 
+Kernel Type: Geometric 
+

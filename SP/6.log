@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+MUTAG               179          17.486        19.2346            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    MUTAG
+----------  ------------
+SVM         82.74 ± 1.65
+
+real	0m17.154s
+user	0m16.450s
+sys	0m0.252s

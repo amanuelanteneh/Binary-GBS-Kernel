@@ -1,0 +1,12 @@
+12
+Number of graphs: 1080
+
+Kernel: Subgraph Matching 
+
+Data set    FINGERPRINT
+----------  -------------
+SVM         46.89 ± 0.56
+
+real	1692m46.397s
+user	1688m37.373s
+sys	0m3.880s

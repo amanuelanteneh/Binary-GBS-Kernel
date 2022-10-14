@@ -1,0 +1,14 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PTC_FM              284         13.6408         13.993            2
+
+Kernel: Subgraph Matching 
+
+Data set    PTC_FM
+----------  ------------
+SVM         56.36 ± 2.66
+
+real	562m16.369s
+user	560m26.229s
+sys	0m25.126s

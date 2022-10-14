@@ -1,0 +1,17 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ER_MD               357         19.2717        185.157            2
+
+Kernel: Random Walk 
+Lambda: 0.001 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+Data set    ER_MD
+----------  ------------
+SVM         70.32 ± 0.02
+
+real	18m43.055s
+user	18m39.541s
+sys	0m0.359s

@@ -1,0 +1,14 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+MUTAG               179          17.486        19.2346            2
+
+Kernel: Subgraph Matching 
+
+Data set    MUTAG
+----------  ------------
+SVM         83.24 ± 1.27
+
+real	462m54.727s
+user	461m1.611s
+sys	0m39.686s

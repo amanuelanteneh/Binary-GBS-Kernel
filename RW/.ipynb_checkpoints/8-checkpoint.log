@@ -1,0 +1,10 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PROTEINS            515         15.7728        29.3767            2
+
+Kernel: Random Walk 
+Lambda: 0.0001 
+Method Type: Fast 
+Kernel Type: Geometric 
+

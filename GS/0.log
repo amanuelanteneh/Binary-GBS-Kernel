@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+AIDS               1723         11.1184        11.2925            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    AIDS
+----------  ------------
+SVM         99.30 ± 0.07
+
+real	1869m12.602s
+user	1863m53.635s
+sys	0m49.036s

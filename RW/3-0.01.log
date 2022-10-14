@@ -1,0 +1,17 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ENZYMES             204         18.5637        36.3039            6
+
+Kernel: Random Walk 
+Lambda: 0.01 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+Data set    ENZYMES
+----------  ------------
+SVM         21.20 ± 2.38
+
+real	13m50.430s
+user	13m47.704s
+sys	0m0.286s

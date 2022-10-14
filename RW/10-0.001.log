@@ -1,0 +1,17 @@
+Data set       Number of     Mean Number    Mean Number    Number of
+                  Graphs     of Vertices       of Edges      Classes
+-----------  -----------  --------------  -------------  -----------
+FINGERPRINT         1080         10.5898        9.10556            3
+
+Kernel: Random Walk 
+Lambda: 0.001 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+Data set    FINGERPRINT
+----------  -------------
+SVM         45.83 ± 0.90
+
+real	242m49.831s
+user	242m8.267s
+sys	0m4.197s

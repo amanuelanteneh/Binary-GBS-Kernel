@@ -1,0 +1,8 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+COX2_MD             118         23.9068        274.407            2
+
+Kernel: Subgraph Matching 
+
+slurmstepd: error: *** JOB 42464823 ON udc-aw29-24a CANCELLED AT 2022-10-02T10:29:27 DUE TO TIME LIMIT ***

@@ -1,0 +1,18 @@
+Data set      Number of    Mean Number     Mean Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+COX2_MD             118        274.407         23.9068            2
+
+Number of samples per graph: 9000 
+Mean number of photons: 3.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+Data set    COX2_MD
+----------  ------------
+SVM         53.47 ± 2.96
+
+real	377m42.209s
+user	374m43.790s
+sys	1m58.240s

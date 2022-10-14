@@ -1,0 +1,16 @@
+Data set       Number of     Mean Number    Mean Number    Number of
+                  Graphs     of Vertices       of Edges      Classes
+-----------  -----------  --------------  -------------  -----------
+FINGERPRINT         1080         10.5898        9.10556            3
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    FINGERPRINT
+----------  -------------
+SVM         65.25 ± 1.30
+
+real	1202m45.083s
+user	1199m41.267s
+sys	0m10.034s

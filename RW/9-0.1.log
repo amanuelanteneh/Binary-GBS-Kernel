@@ -1,0 +1,68 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PTC_FM              284         13.6408         13.993            2
+
+Kernel: Random Walk 
+Lambda: 0.1 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+Traceback (most recent call last):
+  File "RW-Kernel.py", line 147, in <module>
+    scores = cross_validate(classifier, X=X, y=y, cv=kfold2, n_jobs=-1, return_train_score=False)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 242, in cross_validate
+    scores = parallel(
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/parallel.py", line 1051, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/parallel.py", line 866, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/parallel.py", line 784, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 560, in _fit_and_score
+    test_scores = _score(estimator, X_test, y_test, scorer)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 607, in _score
+    scores = scorer(estimator, X_test, y_test)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/metrics/_scorer.py", line 90, in __call__
+    score = scorer(estimator, *args, **kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/metrics/_scorer.py", line 372, in _passthrough_scorer
+    return estimator.score(*args, **kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/utils/metaestimators.py", line 119, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/pipeline.py", line 611, in score
+    return self.steps[-1][-1].score(Xt, y, **score_params)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/model_selection/_search.py", line 458, in score
+    return score(self.best_estimator_, X, y)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/metrics/_scorer.py", line 169, in __call__
+    return self._score(partial(_cached_call, None), estimator, X, y_true,
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/metrics/_scorer.py", line 206, in _score
+    y_pred = method_caller(estimator, "predict", X)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/metrics/_scorer.py", line 53, in _cached_call
+    return getattr(estimator, method)(*args, **kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/svm/_base.py", line 615, in predict
+    y = super().predict(X)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/svm/_base.py", line 333, in predict
+    X = self._validate_for_predict(X)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/svm/_base.py", line 465, in _validate_for_predict
+    X = check_array(X, accept_sparse='csr', dtype=np.float64,
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/utils/validation.py", line 72, in inner_f
+    return f(**kwargs)
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/utils/validation.py", line 644, in check_array
+    _assert_all_finite(array,
+  File "/apps/software/standard/core/anaconda/2020.11-py3.8/lib/python3.8/site-packages/sklearn/utils/validation.py", line 96, in _assert_all_finite
+    raise ValueError(
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+
+real	1m6.213s
+user	1m5.534s
+sys	0m0.175s

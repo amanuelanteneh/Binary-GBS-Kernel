@@ -1,0 +1,14 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ENZYMES             204         18.5637        36.3039            6
+
+Kernel: Subgraph Matching 
+
+Data set    ENZYMES
+----------  ---------
+SVM         nan ± nan
+
+real	0m1.816s
+user	0m1.147s
+sys	0m0.213s

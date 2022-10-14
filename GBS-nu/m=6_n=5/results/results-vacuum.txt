@@ -1,0 +1,34 @@
+Number of samples per graph: 15000 
+Mean number of photons: 4.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 64
+
+Data set    COX2_MD
+----------  ------------
+SVM         52.59 ± 1.81
+
+Data set    MUTAG
+----------  ------------
+SVM         83.64 ± 1.31
+
+Data set    BZR_MD
+----------  ------------
+SVM         62.25 ± 0.75
+
+Data set    PROTEINS
+----------  ------------
+SVM         68.02 ± 1.04
+
+Data set    FINGERPRINT
+----------  -------------
+SVM         65.18 ± 0.90
+
+Data set    PTC_FM
+----------  ------------
+SVM         55.64 ± 3.39
+
+Data set    ENZYMES
+----------  ------------
+SVM         42.19 ± 1.73

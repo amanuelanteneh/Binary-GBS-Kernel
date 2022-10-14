@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ER_MD               357         19.2717        185.157            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    ER_MD
+----------  ------------
+SVM         48.88 ± 4.53
+
+real	464m15.747s
+user	463m2.591s
+sys	0m5.669s

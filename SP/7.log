@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+NCI1               1853          19.776        21.2774            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    NCI1
+----------  ------------
+SVM         53.40 ± 2.25
+
+real	6m2.254s
+user	5m59.189s
+sys	0m1.501s

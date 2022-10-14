@@ -1,0 +1,19 @@
+Number of samples per graph: 15000 
+Mean number of photons: 4.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+
+
+          n_bar
+            4                 4.5                5                 5.5               6   
+Dataset     
+
+MUTAG  80.46 ± 1.36      82.91 ± 1.01      83.04 ± 1.15        81.72 ± 1.14     83.13 ± 2.05
+
+
+PTC    57.13 ± 3.75      58.62 ± 2.55      53.92 ± 2.54        54.42 ± 3.27     54.95 ± 4.16
+
+
+ENZY   50.84 ± 1.17      50.48 ± 1.91      00.00 ± 0.00        49.72 ± 1.58     00.00 ± 0.00

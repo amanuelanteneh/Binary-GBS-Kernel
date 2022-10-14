@@ -1,0 +1,40 @@
+Number of samples per graph: 15000 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 5 
+Number of outcomes |Ω|: 31
+
+need aids & nci1 & er
+
+Data set    BZR_MD
+----------  ------------
+SVM         60.14 ± 1.28
+
+Data set    COX2_MD
+----------  ------------
+SVM         51.62 ± 2.76
+
+Data set    ENZYMES
+----------  ------------
+SVM         48.10 ± 1.18
+
+Data set    FINGERPRINT
+----------  -------------
+SVM         64.45 ± 0.78
+
+Data set    IMDB-BINARY
+----------  -------------
+SVM         60.69 ± 0.84
+
+Data set    MUTAG
+----------  ------------
+SVM         84.63 ± 0.91
+
+Data set    PROTEINS
+----------  ------------
+SVM         65.35 ± 0.58
+
+Data set    PTC_FM
+----------  ------------
+SVM         52.63 ± 3.95

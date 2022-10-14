@@ -1,0 +1,17 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+AIDS               1723         11.1184        11.2925            2
+
+Kernel: Random Walk 
+Lambda: 0.001 
+Method Type: Fast 
+Kernel Type: Geometric 
+
+Data set    AIDS
+----------  -------------
+SVM         53.11 ± 11.90
+
+real	867m5.441s
+user	864m54.670s
+sys	0m4.425s

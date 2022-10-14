@@ -1,0 +1,18 @@
+Data set      Number of    Mean Number     Mean Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+BZR_MD              257        197.696         20.1012            2
+
+Number of samples per graph: 15000 
+Mean number of photons: 4.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+Max number of modes: 6 
+Number of outcomes |Ω|: 63
+Data set    BZR_MD
+----------  ------------
+SVM         61.55 ± 0.96
+
+real	1237m30.744s
+user	1224m51.281s
+sys	9m38.652s

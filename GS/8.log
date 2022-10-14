@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PROTEINS            515         15.7728        29.3767            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    PROTEINS
+----------  ------------
+SVM         65.75 ± 0.94
+
+real	597m34.788s
+user	596m1.508s
+sys	0m5.472s

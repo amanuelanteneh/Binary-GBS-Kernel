@@ -1,0 +1,16 @@
+Data set       Number of     Mean Number    Mean Number    Number of
+                  Graphs     of Vertices       of Edges      Classes
+-----------  -----------  --------------  -------------  -----------
+IMDB-BINARY          806         15.9814        63.3226            2
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    IMDB-BINARY
+----------  -------------
+SVM         68.49 ± 0.63
+
+real	1078m35.609s
+user	1075m46.380s
+sys	0m12.722s

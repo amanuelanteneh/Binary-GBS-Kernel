@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PTC_FM              284         13.6408         13.993            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    PTC_FM
+----------  ------------
+SVM         55.38 ± 4.04
+
+real	0m25.297s
+user	0m24.745s
+sys	0m0.242s

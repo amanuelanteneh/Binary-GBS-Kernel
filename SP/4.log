@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ER_MD               357         19.2717        185.157            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    ER_MD
+----------  ------------
+SVM         45.23 ± 4.35
+
+real	0m30.988s
+user	0m29.681s
+sys	0m0.327s

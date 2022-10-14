@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PROTEINS            515         15.7728        29.3767            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    PROTEINS
+----------  ------------
+SVM         63.63 ± 0.41
+
+real	1m47.978s
+user	1m46.946s
+sys	0m0.356s

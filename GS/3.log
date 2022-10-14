@@ -1,0 +1,16 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ENZYMES             204         18.5637        36.3039            6
+
+Kernel: Graphlet Sampling 
+Samples Drawn: 5174 
+Graphlet Size: 5 
+
+Data set    ENZYMES
+----------  ------------
+SVM         34.59 ± 2.54
+
+real	225m17.011s
+user	224m40.621s
+sys	0m2.966s

@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+COX2_MD             118         23.9068        274.407            2
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    COX2_MD
+----------  ------------
+SVM         48.11 ± 4.30
+
+real	0m17.160s
+user	0m16.098s
+sys	0m0.319s

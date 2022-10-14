@@ -1,0 +1,10 @@
+Data set       Number of     Mean Number    Mean Number    Number of
+                  Graphs     of Vertices       of Edges      Classes
+-----------  -----------  --------------  -------------  -----------
+IMDB-BINARY          806         15.9814        63.3226            2
+
+Kernel: Random Walk 
+Lambda: 0.1 
+Method Type: Fast 
+Kernel Type: Geometric 
+

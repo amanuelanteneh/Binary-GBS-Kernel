@@ -1,0 +1,15 @@
+Data set      Number of     Mean Number    Mean Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+IMDB-MULTI         1380         10.9797        43.1674            3
+
+Kernel: Shortest Path 
+Algorithm: Floyd Warshall 
+
+Data set    IMDB-MULTI
+----------  ------------
+SVM         39.93 ± 0.46
+
+real	3m28.078s
+user	3m26.694s
+sys	0m0.418s
