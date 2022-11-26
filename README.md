@@ -2,8 +2,10 @@
 Repo for the code used to generate the data in the paper I co-authored (first author) *Efficient graph classification using binary Gaussian boson sampling* forthcoming in the 
 journal Physical Review A.
 
+A boson sampler is a near term quantum computer that is strongly believed to be classically hard to simulate (see Scott Aaronson 2011).
+
 The basic idea of the quantum machine learning algorithm is to encode the adjacancey matrix of a graph into a Gaussian boson sampler that measures photon detection events 
-using thereshold detectors which click when they detect any photons as opposed to photon number resolving detectors which count exactly how many photons are detected.
+using thereshold (binary) detectors which click when they detect any photons as opposed to photon number resolving detectors which count exactly how many photons are detected.
 
 After the matrix is encoded into the device we sample the device *S* times. Using those samples we construct a feature vector that contains useful information about the graph encoded.
 In our case the features are related to the number of perfect mathings of all possible subgraphs of the encoded graph. 
