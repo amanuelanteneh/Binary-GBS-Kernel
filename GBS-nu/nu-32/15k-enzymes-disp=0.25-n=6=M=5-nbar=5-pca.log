@@ -1,0 +1,23 @@
+Data set      Number of    Mean Number     Mean Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+ENZYMES             204        36.3039         18.5637            6
+
+Number of samples per graph: 15000 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.25 
+Max photon number: 6 
+Max number of modes: 5 
+Number of outcomes |Ω|: 32
+Explained variance ratios: [5.74037475e-01 9.25637436e-02 6.36028332e-02 5.80381586e-02
+ 4.90868227e-02 2.93078211e-02 2.45016350e-02 2.32918371e-02
+ 1.59918163e-02 1.32640516e-02 1.16105120e-02 8.86447990e-03
+ 7.78080311e-03 7.06594555e-03 5.93179549e-03 4.10054814e-03
+ 2.19682029e-03 1.90338161e-03 1.47651497e-03 1.24382198e-03
+ 8.23736017e-04 7.40963608e-04 6.72050378e-04 4.84898336e-04
+ 3.92870205e-04 2.93817809e-04 2.42302011e-04 1.69885235e-04
+ 1.24945408e-04 1.17987048e-04 7.57261902e-05 1.09077592e-31]
+
+real	1410m13.456s
+user	1389m16.204s
+sys	17m27.559s
