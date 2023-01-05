@@ -1,6 +1,6 @@
 # Classifcation of graph-structred data using Gaussian boson sampling with threshold detectors
 Repo for the code used to generate the data in the paper I co-authored (first author) *Efficient graph classification using binary Gaussian boson sampling* forthcoming in the 
-journal Physical Review A.
+journal Physical Review A. Avaialbe here: https://arxiv.org/abs/2301.01232v1
 
 A boson sampler is a near term quantum computer that is strongly believed to be classically hard to simulate (see Scott Aaronson 2011).
 
