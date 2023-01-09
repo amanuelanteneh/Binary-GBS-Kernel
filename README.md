@@ -10,7 +10,7 @@ using thereshold (binary) detectors which click when they detect any photons as 
 After the matrix is encoded into the device we sample the device *S* times. Using those samples we construct a feature vector that contains useful information about the graph encoded.
 In our case the features are related to the number of perfect mathings of all possible subgraphs of the encoded graph. 
 The probability of a detection event, denoted $p(\textbf{n})$, is proportinal to the Hafnian of a submatrix of the 
-adjacency matrix of the graph encoded into the quantum sampling device. The exact equation for the $p(\textbf{n})$ is
+adjacency matrix of the graph encoded into the quantum sampling device. The exact equation for $p(\textbf{n})$ is given by
 
 $$ p(\textbf{n}) = \frac{1}{\sqrt{\textrm{det}(Q)}}\frac{|\textrm{Haf}(A_{\textbf{n}})|^2}{\textbf{n}!} $$
 
